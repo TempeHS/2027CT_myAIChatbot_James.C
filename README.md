@@ -4,7 +4,7 @@ Gleb AI
 
 ## Description
 
-Gleb AI is a AI chat bot that can answer basic qestions. 
+This chat bot can have basic conversations and answer basic qestions, such as math problems. this chat bot was created in 2026.
 
 ## Getting Started
 
