@@ -1,10 +1,10 @@
 # Project Title
 
-Simple overview of use/purpose.
+Gleb AI
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Gleb AI is a AI chat bot that can answer basic qestions. 
 
 ## Getting Started
 
@@ -50,7 +50,7 @@ ex. [@benpaddlejones](https://github.com/benpaddlejones)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the GNU GPL v3.0 License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
