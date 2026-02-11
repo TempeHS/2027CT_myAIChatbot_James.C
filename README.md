@@ -35,10 +35,7 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Mr Jones
-ex. [@benpaddlejones](https://github.com/benpaddlejones)
+James Clerke de Thame - (james.clerkedethame@education.nsw.gov.au)
 
 ## Version History
 
