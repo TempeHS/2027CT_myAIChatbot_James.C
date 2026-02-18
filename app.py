@@ -16,6 +16,33 @@ chatbot = ChatBot(
 trainer = ChatterBotCorpusTrainer(chatbot)
 trainer.train("chatterbot.corpus.english")
 
+from chatterbot.trainers import ListTrainer
+
+list_trainer = ListTrainer(chatbot)
+
+# Train on school-related conversations
+list_trainer.train(
+    [
+        "What subjects do you like?",
+        "As an AI bot I do not have opinons" "Can you help with homework?",
+        "I can try to help explain concepts, but you should do your own work!",
+        "Who made you?",
+        "I was created by a talented Year 9 student at Tempe High School!",
+        "what is one plus one?",
+        "Two!",
+    ]
+)
+
+# Train on greetings
+list_trainer.train(
+    [
+        "Good morning!",
+        "Good morning! How can I help you today?",
+        "Good afternoon!",
+        "Good afternoon! What would you like to chat about?",
+    ]
+)
+
 
 @app.route("/")
 def home():
