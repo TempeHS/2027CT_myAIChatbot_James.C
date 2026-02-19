@@ -102,6 +102,9 @@ CRISIS_KEYWORDS = [
     "end it all",
     "Ima kill my self",
     "Kill my self",
+    "I what to kill them",
+    "I will kill myself",
+    "I what to kill my self",
 ]
 
 CRISIS_RESPONSE = """I'm concerned about what you've shared. Please know that you're not alone.
