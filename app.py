@@ -24,12 +24,16 @@ list_trainer = ListTrainer(chatbot)
 list_trainer.train(
     [
         "What subjects do you like?",
-        "As an AI bot I do not have opinons" "Can you help with homework?",
+        "As an AI bot I do not have opinions" "Can you help with homework?",
         "I can try to help explain concepts, but you should do your own work!",
         "Who made you?",
         "I was created by a talented Year 9 student at Tempe High School!",
         "what is one plus one?",
-        "Two!",
+        "Two",
+        "what is 1 + 1",
+        "Two",
+        "what is your name?",
+        "My name is Gleb AI, here to help!",
     ]
 )
 
@@ -40,6 +44,38 @@ list_trainer.train(
         "Good morning! How can I help you today?",
         "Good afternoon!",
         "Good afternoon! What would you like to chat about?",
+    ]
+)
+
+# Train on math
+list_trainer.train(
+    [
+        "What is 2 + 2",
+        "Four",
+        "what is Two plus Two",
+        "Four",
+        "what is 2 times 2",
+        "Four",
+        "What is 8 times 8?",
+        "64",
+        "whats 3+5",
+        "that would be 8",
+        "what is 10 plus ten",
+        "its 20",
+        "what is 10 + 10",
+        "20",
+    ]
+)
+
+# Train on conversation
+list_trainer.train(
+    [
+        "No",
+        "Whats wrong?",
+        "Just no",
+        "can you tell me whats wrong?",
+        "thats right!",
+        "Thank you!",
     ]
 )
 
